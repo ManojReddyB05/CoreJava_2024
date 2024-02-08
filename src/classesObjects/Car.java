@@ -20,18 +20,6 @@ public class Car {
 		System.out.println("Milage of car is : "+milage);
 		System.out.println("Cost of car is : "+cost);
 	}
-	public static void main(String[] args) {
-		Car tata = new Car();		
-		
-		tata.colour = "Black";
-		tata.model = "Harrier";
-		tata.milage = 15;
-		tata.cost = 1800000;
-		
-		tata.startCar();
-		tata.stopCar();
-		tata.carDetails();
-	}
-
+	
 
 }
